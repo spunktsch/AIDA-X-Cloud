@@ -21,12 +21,12 @@ export const links: LinksFunction = () => [
 
 export const meta: MetaFunction = ({ data }) => ({
   charset: "utf-8",
-  description: "ToneHunt - Find amps, pedals, and other models for Neural Amp Modeler.",
+  description: "AIDA-X Cloud - Find amps, pedals, and other models for AIDA-X.",
   viewport: "width=device-width, initial-scale=1, user-scalable=no",
   keywords:
-    "ToneHunt, Neural Amp Modeler, NAM, models, guitar, ToneX, guitar tone, plugin, peavey, mesa, dumble, fender, vox, high gain, low gain, tone",
+    "AIDA-X models, guitar, ToneX, guitar tone, plugin, peavey, mesa, dumble, fender, vox, high gain, low gain, tone",
 
-  "og:site_name": "ToneHunt",
+  "og:site_name": "AIDA-X Cloud",
   "og:type": "article",
   "og:image": `${data.ENV.ORIGIN}/social_banner.jpg`,
   "og:image:secure_url": `${data.ENV.ORIGIN}/social_banner.jpg`,
