@@ -86,7 +86,7 @@ export default function MainNav({ user, profile, isMobile = false, setShowMenu }
                     return twMerge(
                       "block px-5 py-2 rounded-full text-lg",
                       isActive
-                        ? "text-tonehunt-purple bg-tonehunt-gray-medium"
+                        ? "text-tonehunt-green-medium bg-tonehunt-gray-medium"
                         : "hover:text-white text-white/80 hover:bg-tonehunt-gray-medium"
                     );
                   }}
@@ -112,7 +112,7 @@ export default function MainNav({ user, profile, isMobile = false, setShowMenu }
                   return twMerge(
                     "block px-5 py-2 rounded-full text-lg",
                     isActive
-                      ? "text-tonehunt-purple bg-tonehunt-gray-medium"
+                      ? "text-tonehunt-green-medium bg-tonehunt-gray-medium"
                       : "hover:text-white text-white/80 hover:bg-tonehunt-gray-medium"
                   );
                 }}

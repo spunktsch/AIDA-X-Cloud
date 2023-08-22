@@ -25,8 +25,8 @@ import { zipFiles } from "~/utils/file";
 
 export const meta: MetaFunction<LoaderData> = ({ data }) => {
   return {
-    title: `New Model | ToneHunt`,
-    description: `Create a new model on ToneHunt`,
+    title: `New Model | AIDA-X`,
+    description: `Create a new model on AIDA-X Cloud`,
   };
 };
 
@@ -203,10 +203,10 @@ export default function ModelsNewPage() {
       let { files: filesBeingUploaded } = toJSON<{ files: File[] }>(formData);
       const _files = asArray(filesBeingUploaded);
 
-      const hasInvalidFiles = _files.some((file) => !file.type.match(/audio.*wav/) && !file.name.includes(".nam"));
+      const hasInvalidFiles = _files.some((file) => !file.type.match(/audio.*wav/) && !file.name.includes(".aidax"));
 
       if (hasInvalidFiles) {
-        alert("Only NAM models and IR wav files are allowed");
+        alert("Only AIDA-X models and IR wav files are allowed");
         return;
       }
 
@@ -259,7 +259,7 @@ export default function ModelsNewPage() {
                 name="files"
                 multiple
                 onChange={handleFormSubmit}
-                accept=".nam, .wav"
+                accept=".aidax, .wav"
                 style={{
                   width: "400%",
                   height: "100%",

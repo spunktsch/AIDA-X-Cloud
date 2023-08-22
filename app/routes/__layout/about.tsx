@@ -7,13 +7,13 @@ import iconOutboard from "~/assets/categories_icons/icon-outboard.svg";
 
 export const meta: MetaFunction = ({ location }) => {
   const description =
-    "Tonehunt is dedicated to simplifying the process of finding models for the Neural Amp Modeler (NAM). We understand how frustrating it can be to search for hours and come up empty-handed. That's why we've created an extensive platform to share and find models for NAM. Whether you're a seasoned producer or a beginner, our comprehensive collection of models will help you find get the tone you're looking for, from guitar, to outboard studio preamps. In the spirit of NAM's open source philosophy, our aim at ToneHunt is to add value to the life of the musician/products/engineer under the guidance of the following values: Always Free, Always Open, Always Secure, Always Collaborative. It is very important to us that we have a place that we can provide an equitable destination for creating the sound that you, me or anyone is looking for.";
+    "AIDA-X Cloud is dedicated to simplifying the process of finding models for AIDA-X. We understand how frustrating it can be to search for hours and come up empty-handed. That's why we've created an extensive platform to share and find models for NAM. Whether you're a seasoned producer or a beginner, our comprehensive collection of models will help you find get the tone you're looking for, from guitar, to outboard studio preamps. In the spirit of NAM's open source philosophy, our aim at ToneHunt is to add value to the life of the musician/products/engineer under the guidance of the following values: Always Free, Always Open, Always Secure, Always Collaborative. It is very important to us that we have a place that we can provide an equitable destination for creating the sound that you, me or anyone is looking for.";
 
   return {
-    title: "About | ToneHunt",
+    title: "About | AIDA-X Cloud",
     description,
 
-    "og:title": "About | ToneHunt",
+    "og:title": "About | AIDA-X Cloud",
     "og:url": `${location.pathname}${location.search}`,
     "og:description": description,
     "twitter:image:alt": description,
@@ -29,17 +29,17 @@ export default function AboutPage() {
         <img src={iconFullrig} alt="ToneHunt Full Rigs" />
         <img src={iconOutboard} alt="ToneHunt Outboard Gear" />
       </div>
-      <h2 className="text-4xl font-satoshi-bold pb-10">About ToneHunt</h2>
+      <h2 className="text-4xl font-satoshi-bold pb-10">About AIDA-X Cloud</h2>
 
       <p className="mb-10">
-        Tonehunt is dedicated to simplifying the process of finding models{" "}
+      AIDA-X Cloud is dedicated to simplifying the process of finding models{" "}
         <a
           href="https://github.com/sdatkinson/neural-amp-modeler"
           className="hover:underline text-tonehunt-blue-light font-satoshi-bold"
           target="_blank"
           rel="noopener noreferrer"
         >
-          for the Neural Amp Modeler (NAM)
+          for AIDA-X
         </a>
         . We understand how frustrating it can be to search for hours and come up empty-handed. That's why we've created
         an extensive platform to share and find models for NAM.
@@ -53,7 +53,7 @@ export default function AboutPage() {
       <h3 className="text-3xl font-satoshi-medium pb-10">Our Values</h3>
 
       <p className="pb-5">
-        In the spirit of NAM's open source philosophy, our aim at ToneHunt is to add value to the life of the
+        In the spirit of AIDA-X open source philosophy, our aim at ToneHunt is to add value to the life of the
         musician/products/engineer under the guidance of the following values:
       </p>
 
