@@ -1,7 +1,7 @@
 export const Licenses = [
   {
     id: 1,
-    name: "Tone Hunt",
+    name: "AIDA-X Cloud",
     description:
       "The user may download and load the data file into software, and utilize or publish the outputs from said software resulting from use of the aforementioned data file without royalty or restriction. The user may not upload, or otherwise republish, or distribute the data file without express permission from the author of the aforementioned data file.",
   },

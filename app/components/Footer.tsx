@@ -8,7 +8,7 @@ const Footer = () => {
     { id: 3, label: "Sign Up", link: "/sign-up" },
     // { id: 4, label: "Support", link: "/support" },
     { id: 5, label: "Licensing", link: "/support/licensing" },
-    { id: 6, label: "Join our Discord", link: "https://discord.gg/anM9ytZTSu" },
+    //{ id: 6, label: "Join our Discord", link: "https://discord.gg/anM9ytZTSu" },
   ];
 
   return (
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
 
         <div className="w-full text-center text-xs p-4 pt-10 uppercase text-neutral-600">
-          Copyright © 2023 ToneHunt.org
+          Copyright © 2023 aida-x.cc
         </div>
       </div>
     </>

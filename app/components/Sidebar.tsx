@@ -25,12 +25,12 @@ export const ArticlesBlock = () => {
 
       <div className="flex flex-col">
         <div className="flex-1  pb-3 mb-3">
-          <a href="https://www.neuralampmodeler.com/" target="_new">
+          <a href="https://www.aida-x.cc/" target="_new">
             <div className="flex flex-row items-center">
               <div className="inline w-14 h-14 mr-2 bg-tonehunt-green rounded-xl overflow-hidden flex-none">
                 <img className="object-cover w-14 h-14" src={imgArticle3} alt="nam_image" title="Download NAM" />
               </div>
-              <span className="font-satoshi-bold text-sm hover:underline">Download the Neural Amp Modeling Plugin</span>
+              <span className="font-satoshi-bold text-sm hover:underline">Download AIDA-X Plugin</span>
             </div>
           </a>
         </div>
@@ -65,17 +65,7 @@ export const ArticlesBlock = () => {
           </a>
         </div>
         <div className="flex-1  pb-3 mb-3">
-          <a href="https://discord.gg/anM9ytZTSu" target="_new">
-            <div className="flex flex-row items-center">
-              <div className="inline w-14 h-14 mr-2 bg-tonehunt-green rounded-xl overflow-hidden flex-none">
-                <img className="object-cover w-14 h-14" src={imgDiscord} alt="discord" title="Join our Discord" />
-              </div>
-              <span className="font-satoshi-bold text-sm hover:underline">Join the ToneHunt Discord</span>
-            </div>
-          </a>
-        </div>
-        <div className="flex-1  pb-3 mb-3">
-          <a href="https://www.facebook.com/tonehunt.org" target="_new">
+          <a href="https://www.facebook.com/official.AidaDSP" target="_new">
             <div className="flex flex-row items-center">
               <div className="inline w-14 h-14 mr-2 bg-tonehunt-green rounded-xl overflow-hidden flex-none">
                 <img

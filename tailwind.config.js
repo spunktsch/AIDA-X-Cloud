@@ -15,7 +15,11 @@ module.exports = {
             disable: "#5b5b5b",
           },
           yellow: "#C1BC7A",
-          green: "#61C198",
+          green: {
+            dark: "#1b330d",
+            medium: "#8bf700",
+            light: "#c8fa05"
+          },
           purple: "#9685ff",
           pink: "#BA7DC0",
           orange: "#C87967",
