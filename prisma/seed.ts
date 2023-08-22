@@ -14,7 +14,7 @@ async function main() {
   console.log("Start seeding...");
 
   // CREATE USERS
-  const profileIds = await createUser(prisma);
+  // const profileIds = await createUser(prisma);
 
   // CREATE CATEGORIES
   for (const c of Categories) {
