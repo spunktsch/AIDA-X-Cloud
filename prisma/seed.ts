@@ -14,25 +14,25 @@ async function main() {
   console.log("Start seeding...");
 
   // CREATE USERS
-  // const profileIds = await createUser(prisma);
+   const profileIds = await createUser(prisma);
 
   // CREATE CATEGORIES
-  for (const c of Categories) {
-    const category = await prisma.category.create({ data: c });
-    console.log(`Created category with id: ${category.id}`);
-  }
+  // for (const c of Categories) {
+  //   const category = await prisma.category.create({ data: c });
+  //   console.log(`Created category with id: ${category.id}`);
+  // }
 
-  // CREATE LICENSES
-  for (const l of Licenses) {
-    const license = await prisma.license.create({ data: l });
-    console.log(`Created license with id: ${license.id}`);
-  }
+  // // CREATE LICENSES
+  // for (const l of Licenses) {
+  //   const license = await prisma.license.create({ data: l });
+  //   console.log(`Created license with id: ${license.id}`);
+  // }
 
   // CREATE TAGS
-  for (const t of Tags) {
-    const tag = await prisma.tag.create({ data: t });
-    console.log(`Created tag with id: ${tag.id}`);
-  }
+  // for (const t of Tags) {
+  //   const tag = await prisma.tag.create({ data: t });
+  //   console.log(`Created tag with id: ${tag.id}`);
+  // }
 
   // CREATE MODELS
   for (const m of getModelList(profileIds)) {
