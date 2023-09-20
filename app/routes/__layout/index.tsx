@@ -25,12 +25,12 @@ export const meta: MetaFunction<LoaderData> = ({ data, location }) => {
   }, 0);
 
   const title = searchParams.get("tags")
-    ? `#${searchParams.get("tags")} Models | ToneHunt`
+    ? `#${searchParams.get("tags")} Models | AIDA-X`
     : searchParams.get("filter")
-    ? `${startCase(searchParams.get("filter") as string)} Models | ToneHunt`
-    : "ToneHunt | Sound Better!";
+    ? `${startCase(searchParams.get("filter") as string)} Models | AIDA-X`
+    : "AIDA-X | Take your favourite amps ANYWHERE";
 
-  const description = `Explore over ${total} Neural Amp Modeler models, including ${
+  const description = `Explore over ${total} AIDA-X models, including ${
     d.counts.find((count) => count.name === "amps")?.count
   } amps, and ${d.counts.find((count) => count.name === "pedals")?.count} pedals.`;
 

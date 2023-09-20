@@ -230,9 +230,9 @@ export default function ModelsNewPage() {
       {!showFields ? (
         <div>
           <h3 className="text-lg pb-10 text-white/80 text-center">
-            Upload a single NAM file, multiple files to create a pack,
+            Upload a single AIDA-X file, multiple files to create a pack,
             <br />
-            or a NAM file and an IR to create a complete rig.
+            or a AIDA-X file and an IR to create a complete rig.
           </h3>
           <div
             className={twMerge(

@@ -77,15 +77,12 @@ export default function App() {
           <div className="absolute w-full top-0 left-0">
             <Outlet />
             <ScrollRestoration />
-
             <Analytics />
-
             <script
               dangerouslySetInnerHTML={{
                 __html: `window.ENV = ${JSON.stringify(data.ENV)}`,
               }}
             />
-
             <Scripts />
             <LiveReload />
           </div>

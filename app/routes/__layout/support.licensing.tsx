@@ -20,7 +20,7 @@ export default function LicensingInfoPage() {
           </Link>{" "}
           for your options in that regard. <span className="inline font-satoshi-bold text-tonehunt-yellow">CC-BY</span>{" "}
           is often a good choice as it's one of the least restrictive. Alternatively you can consider our{" "}
-          <span className="inline font-satoshi-bold text-tonehunt-yellow">Tone Hunt</span> license, this specifies that:
+          <span className="inline font-satoshi-bold text-tonehunt-yellow">AIDA-X Cloud</span> license, this specifies that:
         </p>
         <p className="leading-loose mt-10 bg-tonehunt-gray-medium p-5 rounded-lg font-satoshi-light italic">
           “The user may download and load the data file into software, and utilize or publish the outputs from said
@@ -29,9 +29,9 @@ export default function LicensingInfoPage() {
           aforementioned data file”.
         </p>
         <p className="leading-loose mt-10">
-          Please note, Tone Hunt does not, and will never, take ownership of the content on this website. We are a free
+          Please note, AIDA-X Cloud does not, and will never, take ownership of the content on this website. We are a free
           and open source community, dedicated to hosting resources for musicians. Authors (uploaders) retain whichever
-          rights they wish when uploading to Tone Hunt.
+          rights they wish when uploading to AIDA-X Cloud.
         </p>
         <p className="leading-loose mt-10">
           More information:{" "}

@@ -19,10 +19,6 @@ type SidebarProps = {
 export const ArticlesBlock = () => {
   return (
     <div className="w-full">
-      <div className="flex">
-        <h1 className="font-satoshi-bold text-xl mb-4">Useful Links</h1>
-      </div>
-
       <div className="flex flex-col">
         <div className="flex-1  pb-3 mb-3">
           <a href="https://www.aida-x.cc/" target="_new">
@@ -35,22 +31,22 @@ export const ArticlesBlock = () => {
           </a>
         </div>
         <div className="flex-1  pb-3 mb-3">
-          <a href="https://github.com/sdatkinson/neural-amp-modeler" target="_new">
+          <a href="https://mod.audio/modeling-amps-and-pedals-for-the-aida-x-plugin-best-practices/" target="_new">
             <div className="flex flex-row items-center">
               <div className="inline w-14 h-14 mr-2 bg-tonehunt-purple rounded-xl overflow-hidden flex-none">
                 <img
                   className="object-cover w-14 h-14"
                   src={imgArticle1}
                   alt="capture_image"
-                  title="How to capture your own rig"
+                  title="How to capture your own gear"
                 />
               </div>
-              <span className="font-satoshi-bold text-sm hover:underline">How to capture your own rig</span>
+              <span className="font-satoshi-bold text-sm hover:underline">How to capture your own gear</span>
             </div>
           </a>
         </div>
         <div className="flex-1  pb-3 mb-3">
-          <a href="https://github.com/sdatkinson/neural-amp-modeler" target="_new">
+          <a href="https://mod.audio/aida-x-colab-training-guide/" target="_new">
             <div className="flex flex-row items-center">
               <div className="inline w-14 h-14 mr-2 bg-tonehunt-orange rounded-xl overflow-hidden flex-none">
                 <img

@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
 
         <div className="w-full text-center text-xs p-4 pt-10 uppercase text-neutral-600">
-          Copyright © 2023 aida-x.cc
+          Copyright © 2023 AIDA DSP
         </div>
       </div>
     </>
