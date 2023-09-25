@@ -10,7 +10,7 @@ export async function createUser(prisma: PrismaClient) {
 
   for (let name of usernames) {
     const { data, error } = await supabase.auth.signUp({
-      email: `${name}@tonehunt.org`,
+      email: `${name}@aida-x.cc`,
       password: "password",
     });
 

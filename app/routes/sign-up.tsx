@@ -13,17 +13,17 @@ import { ModelListCountTitle } from "~/components/routes/ModelListPage";
 import { isNotAllowed } from "~/utils/username";
 
 export const meta: MetaFunction = ({ location }) => ({
-  title: "Sign Up | ToneHunt",
-  description: "Sign Up to ToneHunt and share your models with the world.",
+  title: "Sign Up | AIDA-X Cloud",
+  description: "Sign Up to AIDA-X Cloud and share your models with the world.",
 
-  "og:title": "Sign Up | ToneHunt",
+  "og:title": "Sign Up | AIDA-X Cloud",
   // "og:image": `${location.}`
   "og:url": `${location.pathname}${location.search}`,
   // "twitter:card": "summary_large_image", // TODO
 
   // <!--  Non-Essential, But Recommended -->
-  "og:description": "Sign Up to ToneHunt and share your models with the world.",
-  "twitter:image:alt": "Sign Up to ToneHunt and share your models with the world.",
+  "og:description": "Sign Up to AIDA-X Cloud and share your models with the world.",
+  "twitter:image:alt": "Sign Up to AIDA-X Cloud and share your models with the world.",
 });
 
 type ActionData = {

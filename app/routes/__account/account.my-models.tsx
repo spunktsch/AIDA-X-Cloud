@@ -16,7 +16,7 @@ import EmptyFeed from "~/components/EmptyFeed";
 
 export const meta: MetaFunction<LoaderData> = ({ data }) => {
   return {
-    title: `My Models | ToneHunt`,
+    title: `My Models | AIDA-X Cloud`,
     description: `A list of my models.`,
   };
 };
@@ -125,7 +125,7 @@ import type { Prisma } from "@prisma/client";
 
 export const meta: MetaFunction<LoaderData> = ({ data }) => {
   return {
-    title: `My Models | ToneHunt`,
+    title: `My Models | AIDA-X Cloud`,
     description: `A list of my models.`,
   };
 };

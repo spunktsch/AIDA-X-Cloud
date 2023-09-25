@@ -32,7 +32,7 @@ export const meta: MetaFunction<LoaderData> = ({ data, location, parentsData }) 
 
   const d = data as LoaderData;
 
-  const title = `${d.model.title} | ToneHunt`;
+  const title = `${d.model.title} | AIDA-X Cloud`;
   const description = `${d.model.title} is a model by ${d.model.profile.username}. ${d.model.description}`;
 
   return {

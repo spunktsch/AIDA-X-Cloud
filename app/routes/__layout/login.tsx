@@ -7,17 +7,17 @@ import LoginForm from "~/components/LoginForm";
 import Alert from "~/components/ui/Alert";
 
 export const meta: MetaFunction = ({ location }) => ({
-  title: "Login | ToneHunt",
-  description: "Login to ToneHunt and start uploading your models!",
+  title: "Login | AIDA-X Cloud",
+  description: "Login to AIDA-X Cloud and start uploading your models!",
 
-  "og:title": "Login | ToneHunt",
+  "og:title": "Login | AIDA-X Cloud",
   // "og:image": "http://euro-travel-example.com/thumbnail.jpg", // TODO
   "og:url": `${location.pathname}${location.search}`,
   // "twitter:card": "summary_large_image", // TODO
 
   // <!--  Non-Essential, But Recommended -->
-  "og:description": "Login to ToneHunt and start uploading your models!",
-  "twitter:image:alt": "Login to ToneHunt and start uploading your models!",
+  "og:description": "Login to AIDA-X Cloud and start uploading your models!",
+  "twitter:image:alt": "Login to AIDA-X Cloud and start uploading your models!",
 });
 
 export type LoginActionData = {

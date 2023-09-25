@@ -8,7 +8,7 @@ import Input from "~/components/ui/Input";
 
 export const meta: MetaFunction = () => {
   return {
-    title: `Forgot Password | ToneHunt`,
+    title: `Forgot Password | AIDA-X Cloud`,
   };
 };
 

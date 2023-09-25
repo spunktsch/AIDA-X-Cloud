@@ -22,7 +22,7 @@ import { isValidUrl } from "~/utils/link";
 export const meta: MetaFunction<ProfileLoaderData> = ({ data, location }) => {
   const d = data as ProfileLoaderData;
 
-  const title = d.profile ? `${d.profile?.username}'s Profile | ToneHunt` : "Not Found | ToneHunt";
+  const title = d.profile ? `${d.profile?.username}'s Profile | AIDA-X Cloud` : "Not Found | AIDA-X Cloud";
   const description = d.profile
     ? `${d.profile?.username}'s models include ${d.modelList.models[0]?.title} and ${d.modelList.models[1]?.title}. ${d.profile?.bio}`
     : "Not Found";
@@ -217,13 +217,13 @@ export default function UserProfilePage() {
                 <div className="flex justify-start flex-grow">
                   {isAvatar ? (
                     <img
-                      className="w-32 h-32 rounded-full bg-tonehunt-gray-light mb-5 object-cover"
+                      className="w-32 h-32 rounded-full bg-tonehun-gray-light mb-5 object-cover"
                       src={data.profile?.avatar ?? ""}
                       title={data.profile?.username ?? "avatar"}
                       alt={data.profile?.username ?? "avatar"}
                     />
                   ) : (
-                    <UserIcon className="w-32 h-32 p-6 rounded-full bg-tonehunt-gray-light mb-5" />
+                    <UserIcon className="w-32 h-32 p-6 rounded-full bg-tonehun-gray-light mb-5" />
                   )}
                 </div>
 
@@ -265,7 +265,7 @@ export default function UserProfilePage() {
 
                 {data.profile?.bio ? (
                   <div className="flex mb-6">
-                    <div className="max-h-[280px] overflow-hidden text-xl font-satoshi-regular text-tonehunt-gray-lighter whitespace-pre-wrap">
+                    <div className="max-h-[280px] overflow-hidden text-xl font-satoshi-regular text-tonehun-gray-lighter whitespace-pre-wrap">
                       {data.profile.bio}
                     </div>
                   </div>
@@ -312,7 +312,7 @@ const ProfileTab = ({ count, title, href, end }: { count: number; title: string;
         className={({ isActive }) => {
           return twMerge(
             "block py-5 text-center hover:bg-white/5 border-t border-white/0",
-            isActive ? "border-tonehunt-purple border-t text-tonehunt-purple" : ""
+            isActive ? "border-tonehun-purple border-t text-tonehun-purple" : ""
           );
         }}
         to={href}
