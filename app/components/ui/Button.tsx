@@ -11,10 +11,10 @@ export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
 
 export const smallClasses = "px-2 py-[2px] font-satoshi-regular text-sm leading-5";
 export const base =
-  "relative px-5 py-3 font-satoshi-bold rounded-full text-[rgba(0,0,0,1)] appearance-none focus:ring-2 focus:outline-none focus:ring-bg-tonehunt-green-light";
+  "relative px-5 py-3 font-satoshi-bold rounded-full text-[rgba(255,255,255,1)] appearance-none focus:ring-2 focus:outline-none focus:ring-bg-tonehunt-green-light";
 export const primaryClassNames = twMerge(
   base,
-  "bg-tonehunt-green-medium  text-center focus:bg-tonehunt-green-light hover:bg-tonehunt-green-light"
+  "bg-tonehunt-green-medium  text-center focus:bg-tonehunt-green-light hover:bg-tonehunt-purple"
 );
 export const primaryAltClassNames = twMerge(
   base,

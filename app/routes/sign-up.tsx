@@ -130,7 +130,8 @@ export default function SignUpPage() {
             {!actionData?.success ? (
               <div className="max-w-lg pt-10">
                 <div className="text-3xl font-satoshi-medium mt-5 ">
-                  Register for an account to start sharing your models!
+                  {/* Register for an account to start sharing your models! */}
+                  Register for an account is disabled.
                 </div>
               </div>
             ) : null}
