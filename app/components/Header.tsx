@@ -30,10 +30,11 @@ const Header = ({ user, profile }: HeaderType) => {
         <div className="flex-1 lg:flex-grow lg:pl-4">
           <Link to="/" prefetch="intent">
             <h1 className="text-3xl absolute hidden" style={{ left: "110%", top: "110%" }}>
-              AIDA-X Cloud
+              AIDA-X Cloud  
             </h1>
             <Logo className="w-36 lg:w-44" />
           </Link>
+          
         </div>
 
         <div className="hidden lg:block flex-grow">

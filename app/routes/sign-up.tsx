@@ -131,7 +131,10 @@ export default function SignUpPage() {
               <div className="max-w-lg pt-10">
                 <div className="text-3xl font-satoshi-medium mt-5 ">
                   {/* Register for an account to start sharing your models! */}
-                  Register for an account is disabled.
+                  <p>Sign up is closed for the moment.</p>
+                  <p>
+                  If you like to join the beta please write an email. 
+                  </p>
                 </div>
               </div>
             ) : null}
@@ -148,7 +151,7 @@ export default function SignUpPage() {
               </>
             ) : (
               <Form method="post" className="flex flex-col gap-3 max-w-xl pt-10">
-                <Input
+                {/* <Input
                   name="username"
                   autoComplete="username"
                   label="Username"
@@ -179,7 +182,7 @@ export default function SignUpPage() {
                       Already have an account? Login here.
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </Form>
             )}
           </div>
