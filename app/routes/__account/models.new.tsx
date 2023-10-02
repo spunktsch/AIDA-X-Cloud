@@ -233,6 +233,28 @@ export default function ModelsNewPage() {
             Upload a single AIDA-X file, multiple files to create a pack,
             <br />
             or a AIDA-X file and an IR to create a complete rig.
+
+            <p className="mt-5 text-tonehunt-green-light font-satoshi-bold">Please do not upload captures of plugins.</p>
+            <p className="mt-10">
+              By uploading you agree to our &nbsp;
+              <a
+                href="/disclaimer"
+                className="hover:underline text-tonehunt-blue-light font-satoshi-bold"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                disclaimer
+              </a>
+              &nbsp; and &nbsp;
+              <a
+                href="/privacy"
+                className="hover:underline text-tonehunt-blue-light font-satoshi-bold"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                privacy policy
+              </a>
+            </p>
           </h3>
           <div
             className={twMerge(
