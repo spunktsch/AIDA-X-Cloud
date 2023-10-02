@@ -8,6 +8,9 @@ const Footer = () => {
     { id: 3, label: "Sign Up", link: "/sign-up" },
     // { id: 4, label: "Support", link: "/support" },
     { id: 5, label: "Licensing", link: "/support/licensing" },
+    { id: 6, label: "Disclaimer", link: "/disclaimer" },
+    { id: 7, label: "Privacy Policy", link: "/privacy" },
+
     //{ id: 6, label: "Join our Discord", link: "https://discord.gg/anM9ytZTSu" },
   ];
 
