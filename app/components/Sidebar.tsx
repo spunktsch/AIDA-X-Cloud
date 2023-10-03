@@ -18,7 +18,7 @@ type SidebarProps = {
 
 export const ArticlesBlock = () => {
   return (
-    <div className="w-full">
+    <div className="w-full pt-5">
       <div className="flex flex-col">
         <div className="flex-1  pb-3 mb-3">
           <a href="https://www.aida-x.cc/" target="_new">
