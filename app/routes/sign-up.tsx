@@ -14,7 +14,7 @@ import { isNotAllowed } from "~/utils/username";
 
 export const meta: MetaFunction = ({ location }) => ({
   title: "Sign Up | AIDA-X Cloud",
-  description: "Sign Up to AIDA-X Cloud and share your models with the world.",
+  description: "Sign Up to AIDA-X Cloud and share your models with the community.",
 
   "og:title": "Sign Up | AIDA-X Cloud",
   // "og:image": `${location.}`
@@ -22,8 +22,8 @@ export const meta: MetaFunction = ({ location }) => ({
   // "twitter:card": "summary_large_image", // TODO
 
   // <!--  Non-Essential, But Recommended -->
-  "og:description": "Sign Up to AIDA-X Cloud and share your models with the world.",
-  "twitter:image:alt": "Sign Up to AIDA-X Cloud and share your models with the world.",
+  "og:description": "Sign Up to AIDA-X Cloud and share your models with the community.",
+  "twitter:image:alt": "Sign Up to AIDA-X Cloud and share your models with the community.",
 });
 
 type ActionData = {
@@ -107,7 +107,7 @@ export default function SignUpPage() {
       <div
         className="w-full lg:w-1/2 rounded-lg"
         style={{
-          background: "radial-gradient(farthest-side at 20% 10%, red, #4000c7)",
+          background: "radial-gradient(farthest-side at 20% 10%, turquoise, #81f700)",
         }}
       >
         {/* LOGO AREA */}
@@ -130,11 +130,11 @@ export default function SignUpPage() {
             {!actionData?.success ? (
               <div className="max-w-lg pt-10">
                 <div className="text-3xl font-satoshi-medium mt-5 ">
-                  {/* Register for an account to start sharing your models! */}
-                  <p>Sign up is closed for the moment.</p>
-                  <p>
+                  Register for an account to start sharing your models!
+                  {/* <p>Sign up is closed for the moment.</p> */}
+                  {/* <p>
                   If you like to join the beta please write an email. 
-                  </p>
+                  </p> */}
                 </div>
               </div>
             ) : null}
@@ -151,7 +151,7 @@ export default function SignUpPage() {
               </>
             ) : (
               <Form method="post" className="flex flex-col gap-3 max-w-xl pt-10">
-                {/* <Input
+                <Input
                   name="username"
                   autoComplete="username"
                   label="Username"
@@ -182,7 +182,7 @@ export default function SignUpPage() {
                       Already have an account? Login here.
                     </Link>
                   </div>
-                </div> */}
+                </div>
               </Form>
             )}
           </div>
