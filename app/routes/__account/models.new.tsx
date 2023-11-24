@@ -233,8 +233,9 @@ export default function ModelsNewPage() {
             Upload a single AIDA-X file, multiple files to create a pack,
             <br />
             or a AIDA-X file and an IR to create a complete rig.
-
-            <p className="mt-5 text-tonehunt-green-light font-satoshi-bold">Please do not upload captures of plugins.</p>
+            <p className="mt-5 text-tonehunt-green-light font-satoshi-bold">
+              Please do not upload captures of plugins.
+            </p>
             <p className="mt-10">
               By uploading you agree to our &nbsp;
               <a
@@ -256,6 +257,7 @@ export default function ModelsNewPage() {
               </a>
             </p>
           </h3>
+
           <div
             className={twMerge(
               "border-2 border-white rounded-lg px-32 py-16 border-dashed overflow-hidden relative",
@@ -300,7 +302,26 @@ export default function ModelsNewPage() {
           </div>
         </div>
       ) : null}
-
+      <div className="pt-2 text-sm text-white/80">
+        <h4>
+          Please use the following naming for you files: <br />
+           
+          <ul className="mt-2 list-none list-inside ">
+          <li className=""> They have to be renamed with the file extension .aidax </li>
+            amppedalcompany_modelname_channel_quality_author.aidax <br />
+          
+            <li className="text-tonehunt-green-light font-satoshi-bold">&nbsp; eg. fender_twinreverb_normal_standard_AIDADSP.aidax</li></ul>
+          <p>
+            <ul className="mt-2 list-disc list-inside">
+              <li>LSTM12 = light</li>
+              <li>LSTM16 = standard </li>
+              <li>LSTM20 = high </li>
+              <li>LSTM40 = desktop </li>
+              <li>LSTM80 = ultra</li>
+            </ul>
+          </p>
+        </h4>
+      </div>
       {showFields ? (
         <div>
           <div className="mb-12">
