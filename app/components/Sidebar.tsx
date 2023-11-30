@@ -21,7 +21,7 @@ export const ArticlesBlock = () => {
     <div className="w-full pt-5">
       <div className="flex flex-col">
         <div className="flex-1  pb-3 mb-3">
-          <a href="https://www.aida-x.cc/" target="_new">
+          <a href="https://aida-x.cc/" target="_new">
             <div className="flex flex-row items-center">
               <div className="inline w-14 h-14 mr-2 bg-tonehunt-green rounded-xl overflow-hidden flex-none">
                 <img className="object-cover w-14 h-14" src={imgArticle3} alt="nam_image" title="Download NAM" />
