@@ -61,7 +61,7 @@ export default function LoginPage() {
     <div className="max-w-xl m-auto">
       {isConfirmation ? (
         <div className="pb-10">
-          <Alert variant="success" title="Thanks for confirming your email." />
+          <Alert variant="success" title="Thank you for confirming your email." />
         </div>
       ) : null}
 
