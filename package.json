@@ -8,7 +8,8 @@
     "generateTypes": "npx prisma generate",
     "seed": "npx prisma db seed",
     "migrate": "npx prisma migrate dev",
-    "admin:changeEmail": "node --require esbuild-register admin/change-email.ts"
+    "admin:changeEmail": "node --require esbuild-register admin/change-email.ts",
+    "postinstall": "prisma generate"
   },
   "postinstall": "npm run generateTypes",
   "prisma": {
