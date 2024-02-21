@@ -5,8 +5,8 @@ export const getSession = async (request: Request) => {
   const response = new Response();
 
   const supabase = createServerClient<Database>(
-    process.env.SUPABASE_URL as string,
-    process.env.SUPABASE_ANON_KEY as string,
+    process.env.NEXT_PUBLIC_SUPABASE_URL as string,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY as string,
     { request, response }
   );
 

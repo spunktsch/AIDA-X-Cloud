@@ -17,7 +17,7 @@ export const action: ActionFunction = async ({ request, context }) => {
   const formData = await request.formData();
   const response = new Response();
 
-  const supabase = createServerClient(context.SUPABASE_URL as string, context.SUPABASE_ANON_KEY as string, {
+  const supabase = createServerClient(context.NEXT_PUBLIC_SUPABASE_URL as string, context.NEXT_PUBLIC_SUPABASE_ANON_KEY as string, {
     request,
     response,
   });

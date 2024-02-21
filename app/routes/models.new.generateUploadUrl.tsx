@@ -40,6 +40,6 @@ export const loader: LoaderFunction = async ({ request }) => {
   return json<GenerateUploadUrlLoaderData>({
     ...data,
     bearer: session.access_token,
-    apiKey: process.env.SUPABASE_ANON_KEY as string,
+    apiKey: process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY as string,
   });
 };

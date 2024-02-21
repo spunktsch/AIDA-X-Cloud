@@ -7,7 +7,7 @@ async function main() {
   console.log("\nChanging user email\n\n");
   prompt.start();
 
-  const supabase = createClient(process.env.SUPABASE_URL as string, process.env.SERVICE_ROLE_KEY as string);
+  const supabase = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL as string, process.env.SERVICE_ROLE_KEY as string);
 
   const { userId, email } = await prompt.get(["userId", "email"]);
 
