@@ -1,8 +1,8 @@
-<img width="697" alt="logo_tonehunt" src="public/logo_tonehunt.jpg">
+<img width="697" alt="logo_tonehunt" src="public/log_ax_cloud.jpg">
 
-ToneHunt is a web application designed to be a central repository for Neural Amp Modeler (NAM) models.
+AIDA-X Cloud is a web application designed to be a central repository for AIDA-X models.
 
-Visit [https://tonehunt.org/](https://tonehunt.org/) for the live site.
+Visit [https://cloud.aida-x.cc/](https://cloud.aida-x.cc/) for the live site.
 
 ## Technologies Used
 
@@ -178,8 +178,6 @@ Here are some guidelines to follow when contributing to this project:
    This command will generate TypeScript types based on your Prisma schema. By running this command every time you make changes to your schemas, you can ensure that Prisma can properly find all necessary properties and types.
 
 2. We are still updating the seeder file for Prisma. If you encounter an issue, let us know here or in our discord server (see below) to help you set up the data on your db.
-
-3. You can join our Discord server to follow the project's development and interact with other contributors/maintainers: [https://discord.gg/anM9ytZTSu](https://discord.gg/anM9ytZTSu)
 
 ## License
 
